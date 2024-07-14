@@ -1,0 +1,191 @@
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        color: #fff;
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(255, 242, 19),
+        0 0 80px rgb(255, 230, 19),
+        0 0 90px rgb(255, 230, 0),
+        0 0 100px rgb(255, 230, 0),
+        0 0 150px rgb(255, 230, 0);
+    }
+    20%, 24%, 55% {       
+        color: rgb(58, 58, 0);
+      text-shadow: none;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} hr {
+    border-top: 1px solid rgb(109, 109, 0);
+}
+ body {
+    overflow-x: hidden;
+} nav {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 238, 236);
+    background-color: rgb(0, 0, 77);
+} h1 {
+    color: rgb(255, 255, 208);
+    font-size: 50px;
+    animation: flicker 1.5s infinite alternate;  
+} section {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(0, 40, 116);
+} .text {
+    margin: 1rem;
+    width: 60vw;
+    height: 60vh;
+    text-indent: 1rem;
+    font-size: 25px;
+    color: yellow;
+} .text1 {
+    margin: 1rem;
+} .text12 {
+    animation: flicker 1.9s infinite alternate;  
+} .text2 {
+    margin: 1rem;
+
+}.george {
+    align-items: center;
+    border: 1rem;
+    border-color: yellow;
+    border-style:groove;
+    color: yellow;
+    background-color: rgb(0, 0, 77);
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px rgb(255, 242, 19),
+    0 0 80px rgb(255, 230, 19),
+    0 0 90px rgb(255, 230, 0),
+    0 0 100px rgb(255, 230, 0),
+    0 0 150px rgb(255, 230, 0);
+} .nav2 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 238, 236);
+    background-color: rgb(0, 0, 77);
+} .seccion2 {
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(0, 40, 116);
+} .texta1 {
+    height: 90vh;
+    margin: 1rem;
+    width: 60vw;
+    text-indent: 1rem;
+    font-size: 25px;
+    color: yellow;
+
+} .texta {
+    color: yellow;
+    flex-direction: row;
+    display: flex;
+    align-items:center;
+    justify-content:baseline;
+    font-size: 25px;
+} .texta2 {
+    margin: 1rem;
+
+} .texta3 {
+    margin: 1rem;
+
+}
+.AND {
+    color: yellow;
+    animation: flicker 3.2s infinite alternate; 
+    font-size: 50px;
+} .OR {
+    color: yellow;
+    animation: flicker 3.2s infinite alternate; 
+    font-size: 50px;
+} .NOT {
+    color: yellow;
+    animation: flicker 3.2s infinite alternate; 
+    font-size: 50px;
+} .XOR {
+    color: yellow;
+    animation: flicker 3.5s infinite alternate; 
+    font-size: 50px;
+} .NAND {
+    color: yellow;
+    animation: flicker 3.5s infinite alternate; 
+    font-size: 50px;
+} .NOR {
+    color: yellow;
+    animation: flicker 3.5s infinite alternate; 
+    font-size: 50px;
+} .seccion3 {
+    align-items: center;
+    flex-direction: column;
+
+}.textb {
+    height: 70vh;
+    margin: 1rem;
+    width: 60vw;
+    text-indent: 1rem;
+    font-size: 25px;
+    color: yellow;
+} .seccion4 {
+    flex-direction: column;
+    align-items: baseline;
+    color: yellow;
+    font-size: 25px;
+} .textc {
+    margin: 3rem;
+} a {
+    color: yellow;
+    font-size: 25px;
+
+}
+.txtp {
+    color: yellow;
+    animation: flicker 1.8s infinite alternate; 
+    font-size: 50px;
+} footer {
+    flex-direction: column;
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(0, 0, 77);
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px rgb(255, 242, 19),
+    0 0 80px rgb(255, 230, 19),
+    0 0 90px rgb(255, 230, 0),
+    0 0 100px rgb(255, 230, 0),
+    0 0 150px rgb(255, 230, 0);
+}
+
+
