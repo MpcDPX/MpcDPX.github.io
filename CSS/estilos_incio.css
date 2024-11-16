@@ -1,0 +1,318 @@
+@media screen and (max-width: 2000px) {
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive;
+}
+html {scroll-behavior: smooth;}
+body {
+    font-family: 'Comic Sans MS', cursive;
+    overflow: hidden;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navcentral {
+    z-index: 1;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 15vh;
+}
+.nav1 {
+    width: 36vw;
+    height: 15vh;
+}
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:28vw;
+    height: 15vh;
+}
+.nav3 {
+    width:36vw;
+    height: 15vh;
+}
+section{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.VideoFondo {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+.contenidoinicio{
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Contsup {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Continf {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.division1 {
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 13vw;
+    height: 25vh;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.division2 {
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 13vw;
+    height: 25vh;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.division3 {
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 13vw;
+    height: 25vh;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.division4 {
+    background-color: rgba(0, 0, 0, 0.096);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 13vw;
+    height: 25vh;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.primercoso{
+background-image: url("/Recursos/IMG/Buscar.gif");
+background-position: 10px 0px;
+background-repeat: no-repeat;
+width: 60vw;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+.primercoso:focus{
+    background: none;
+}
+
+.division1B {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.division2B {
+    background: white;
+    width:100vw;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.divB1 {
+    width:33vw;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.divB2 {
+    width:34vw;
+    height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.divBB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.divBC {
+    width: 23vw;
+    height:30vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.divBD {
+    width: 24vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height:30vh;
+}
+.imagene {
+    width: 10vw;
+}
+.imgb {
+    width: 23vw;
+}
+
+
+
+.MapaGoogle {
+width: 100vw;
+height: 50vh;
+}
+.ColumnaDatos {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+
+}
+iframe {
+    width:100vw;
+    height:50vh;
+}
+.datosContacto {
+    width:40vw;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formulario {
+    width:60vw;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.li1 {
+    color: red;
+    font-size: 25px;
+}
+.li2 {
+    color: blue;
+    font-size: 20px;
+}
+li {
+    font-family: 'Comic Sans MS', cursive;
+    margin:0.75rem;
+} form {
+    color: crimson;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+}
+input {
+    margin: 0.5rem;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+}
+.imagen{
+    transition-duration: 1s;
+}
+.imagen:focus {
+    width: 4vw;
+}
+.abcd {
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+p {
+    display:none;
+}
+}
+@media screen and (max-width: 768px) {
+section {
+    display:none;
+}
+nav {
+    display:none;
+}
+div {
+    display:none;
+}
+a {
+    display:none;
+}
+body {
+    font-family: 'Comic Sans MS', cursive;
+    overflow: hidden;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    display: flex;
+    font-size: 50px;
+}
+}
